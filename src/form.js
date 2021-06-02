@@ -30,7 +30,7 @@ export default class ServiceList extends React.Component {
     
     render() {
         return (
-            <table id="services">
+            <form>
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -59,7 +59,7 @@ export default class ServiceList extends React.Component {
                         </tr>
                     )}
                 </tbody>
-            </table>
+            </form>
          
         )
     }

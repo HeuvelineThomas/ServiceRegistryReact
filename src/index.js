@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ServiceList from './ServiceList';
-import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
+
     <ServiceList />
+    <div></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
